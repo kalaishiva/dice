@@ -1,5 +1,5 @@
-let randomNumber1 = Math.ceil(Math.random() * 6);
-let imgSelect1 = 'images/dice' +randomNumber1+'.png';
+let randomNumber1 = Math.ceil(Math.random() * 6); //give 1 to 6
+let imgSelect1 = 'images/dice' +randomNumber1+'.png'; //select the random image
 //console.log(randomNumber1);
 //console.log('images/dice' +randomNumber1+'.png');
 
@@ -9,7 +9,7 @@ let imgSelect2 = 'images/dice' +randomNumber2+'.png';
 //console.log(randomNumber2);
 
 
-document.querySelector('.img1').setAttribute('src', imgSelect1);
+document.querySelector('.img1').setAttribute('src', imgSelect1); //src value is replaced
 document.querySelector('.img2').setAttribute('src', imgSelect2);
 
 document.querySelector('h1').innerHTML = result();
